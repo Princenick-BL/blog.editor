@@ -1,0 +1,14 @@
+.renderItem{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-right: 2rem;
+    .item{
+        display: flex;
+        .desc{
+            margin-left: 2rem;
+            max-width: 70%;
+        }
+    }
+}

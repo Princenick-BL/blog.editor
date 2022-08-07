@@ -1,0 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+.logo{
+    font-family: 'Orelega One', cursive ;
+    font-size: 20px;
+    display: flex;
+    div{
+        font-family: 'Orelega One', cursive ;
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    .c{
+        font-size: 15px;
+        margin-left: 2px;
+    }
+}

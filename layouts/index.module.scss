@@ -1,0 +1,25 @@
+.sider{
+    
+}
+.content{
+    background-color: #fff;
+    padding: 2rem !important;
+    max-height: calc(100vh - 1rem);
+    overflow: hidden;
+}
+.content::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #ccc;
+
+}
+
+.content::-webkit-scrollbar{
+    width: 2px;
+    background-color: #F5F5F5;
+    
+}
+
+.content::-webkit-scrollbar-thumb{
+    border-radius: 2px;
+    background-color: var(--color-primary-light);
+}

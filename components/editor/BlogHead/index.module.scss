@@ -1,0 +1,30 @@
+.head{
+    width: 100vw;
+    height: 40px;
+    border-bottom: 1px solid #eee;
+    position: fixed;
+    z-index: 3;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+
+    .publishButton{
+        color: #fff;
+        font-size: .7rem;
+        background-color: rgb(34, 143, 34);
+        border-radius: 2px;
+        padding: 0 1rem;
+        margin-right: 1rem;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.right{
+    margin-right: 10px;
+}
